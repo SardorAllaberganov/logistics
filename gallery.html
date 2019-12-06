@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>United Group Logistics Inc</title>
+    <link rel="shortcut icon" href="/data/img/title-img.png" />
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="data/css/style.css" />
+</head>
+
+<body>
+    <header>
+        <div class="top-header">
+            <ul class="main-top-list">
+                <li>
+                    <a href="mailto:ugroupchicago@gmail.com"><img src="data/img/envelope-regular.svg" alt="" />
+                        ugroupchicago@gmail.com</a>
+                </li>
+                <li class="social-icons">
+                    <a href=""><img src="data/img/facebook-f-brands.svg" alt="" /></a>
+                    <a href=""><img src="data/img/instagram-brands.svg" alt="" /></a>
+                    <a href=""><img src="data/img/twitter-brands.svg" alt="" /></a>
+                </li>
+                <li><img src="data/img/phone-solid.svg" alt="" /> 773-809-9145</li>
+                <li>
+                    <button class="search-btn">
+                        <img src="data/img/search-solid.svg" alt="" />
+                    </button>
+                    <form action="" class="search-input">
+                        <input type="text" placeholder="Search" />
+                        <button><img src="data/img/search-solid.svg" alt="" /></button>
+                    </form>
+                </li>
+            </ul>
+        </div>
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+            <!-- Brand -->
+            <a class="navbar-brand" href="#"><img src="data/img/logo.png" class="nav-logo" alt="logo" /></a>
+
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav align-items-center">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Leasing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacts</a>
+                    </li>
+                </ul>
+            </div>
+            <button type="button" class="drivers-btn" data-toggle="modal" data-target="#myModal">
+                Drivers wanted
+            </button>
+        </nav>
+    </header>
+
+    <section class="gallery">
+        <h3>Gallery</h3>
+        <div class="inner-images">
+            <div class="rows">
+                <div class="columns-3">
+                    <img src="data/img/gallery/1.png" class="max-height-img" alt="" />
+                </div>
+                <div class="columns-3">
+                    <div class="rows">
+                        <img src="data/img/gallery/2.png" class="medium-height-img" alt="" />
+                    </div>
+                    <div class="rows">
+                        <img src="data/img/gallery/3.png" class="min-height-img" alt="" />
+                    </div>
+                </div>
+                <div class="columns-3">
+                    <img src="data/img/gallery/4.png" class="max-height-img" alt="" />
+                </div>
+            </div>
+            <div class="rows">
+                <div class="columns-3">
+                    <img src="data/img/gallery/5.png" class="medium-height-img" alt="" />
+                </div>
+                <div class="columns-9">
+                    <img src="data/img/gallery/6.png" class="medium-height-img" alt="" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="modalImg">
+        <span class="closeImgModal"> &times; </span>
+        <img src="" id="popupImg" alt="img">
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+        <ul class="footer-menu">
+            <li><a href="">Home </a></li>
+            <li><a href="">Leasing </a></li>
+            <li><a href="">Gallery </a></li>
+            <li><a href="">News </a></li>
+            <li><a href="">Contacts </a></li>
+        </ul>
+        <ul class="right-side">
+            <li>
+                <a href="mailto:ugroupchicago@gmail.com ">
+                    <svg width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M19.0312 0H1.96875C0.881426 0 0 0.895417 0 2V14C0 15.1046 0.881426 16 1.96875 16H19.0312C20.1186 16 21 15.1046 21 14V2C21 0.895417 20.1186 0 19.0312 0ZM19.0312 2V3.70021C18.1116 4.461 16.6455 5.644 13.5111 8.13729C12.8203 8.68925 11.4521 10.0153 10.5 9.99983C9.54811 10.0155 8.17938 8.68904 7.48892 8.13729C4.35504 5.64438 2.88853 4.46112 1.96875 3.70021V2H19.0312ZM1.96875 14V6.26658C2.90858 7.02704 4.24138 8.09417 6.27285 9.71017C7.16933 10.427 8.73928 12.0096 10.5 12C12.2521 12.0096 13.8021 10.45 14.7268 9.7105C16.7582 8.09454 18.0914 7.02713 19.0312 6.26663V14H1.96875Z"
+                            fill="white" />
+                    </svg>
+                    ugroupchicago@gmail.com
+                </a>
+            </li>
+            <li>
+                <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0)">
+                        <path
+                            d="M1.07192 0.798351L4.31558 0.0498124C4.66802 -0.0312792 5.02981 0.152736 5.17328 0.483341L6.67036 3.97652C6.80135 4.28217 6.71402 4.64085 6.45516 4.84981L4.5651 6.39679C5.6879 8.78899 7.6497 10.7789 10.0918 11.9235L11.6388 10.0334C11.8509 9.77457 12.2064 9.68724 12.5121 9.81823L16.0053 11.3153C16.339 11.4619 16.523 11.8237 16.4419 12.1761L15.6934 15.4198C15.6154 15.7566 15.316 15.9999 14.9635 15.9999C6.97601 15.9999 0.491801 9.52818 0.491801 1.52817C0.491801 1.17886 0.731958 0.876323 1.07192 0.798351Z"
+                            fill="white" />
+                    </g>
+                    <defs>
+                        <clipPath id="clip0">
+                            <rect width="16" height="16" fill="white" transform="matrix(-1 0 0 1 16.4922 0)" />
+                        </clipPath>
+                    </defs>
+                </svg>
+                773-809-9145
+            </li>
+            <li>
+                <a href=""><svg width="10" height="16" viewBox="0 0 10 16" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M8.72363 9L9.16801 6.10437H6.38957V4.22531C6.38957 3.43313 6.7777 2.66094 8.02207 2.66094H9.28519V0.195625C9.28519 0.195625 8.13895 0 7.04301 0C4.75488 0 3.25926 1.38688 3.25926 3.8975V6.10437H0.71582V9H3.25926V16H6.38957V9H8.72363Z"
+                            fill="white" /></svg></a>
+                <a href=""><svg width="15" height="16" viewBox="0 0 15 16" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0)">
+                            <path
+                                d="M7.40391 4.40635C5.41641 4.40635 3.81328 6.00947 3.81328 7.99697C3.81328 9.98447 5.41641 11.5876 7.40391 11.5876C9.39141 11.5876 10.9945 9.98447 10.9945 7.99697C10.9945 6.00947 9.39141 4.40635 7.40391 4.40635ZM7.40391 10.3313C6.11953 10.3313 5.06953 9.28447 5.06953 7.99697C5.06953 6.70947 6.11641 5.6626 7.40391 5.6626C8.69141 5.6626 9.73828 6.70947 9.73828 7.99697C9.73828 9.28447 8.68828 10.3313 7.40391 10.3313ZM11.9789 4.25947C11.9789 4.7251 11.6039 5.09697 11.1414 5.09697C10.6758 5.09697 10.3039 4.72197 10.3039 4.25947C10.3039 3.79697 10.6789 3.42197 11.1414 3.42197C11.6039 3.42197 11.9789 3.79697 11.9789 4.25947ZM14.357 5.10947C14.3039 3.9876 14.0477 2.99385 13.2258 2.1751C12.407 1.35635 11.4133 1.1001 10.2914 1.04385C9.13516 0.978223 5.66953 0.978223 4.51328 1.04385C3.39453 1.09697 2.40078 1.35322 1.57891 2.17197C0.757031 2.99072 0.503906 3.98447 0.447656 5.10635C0.382031 6.2626 0.382031 9.72822 0.447656 10.8845C0.500781 12.0063 0.757031 13.0001 1.57891 13.8188C2.40078 14.6376 3.39141 14.8938 4.51328 14.9501C5.66953 15.0157 9.13516 15.0157 10.2914 14.9501C11.4133 14.897 12.407 14.6407 13.2258 13.8188C14.0445 13.0001 14.3008 12.0063 14.357 10.8845C14.4227 9.72822 14.4227 6.26572 14.357 5.10947ZM12.8633 12.1251C12.6195 12.7376 12.1477 13.2095 11.532 13.4563C10.6102 13.822 8.42266 13.7376 7.40391 13.7376C6.38516 13.7376 4.19453 13.8188 3.27578 13.4563C2.66328 13.2126 2.19141 12.7407 1.94453 12.1251C1.57891 11.2032 1.66328 9.01572 1.66328 7.99697C1.66328 6.97822 1.58203 4.7876 1.94453 3.86885C2.18828 3.25635 2.66016 2.78447 3.27578 2.5376C4.19766 2.17197 6.38516 2.25635 7.40391 2.25635C8.42266 2.25635 10.6133 2.1751 11.532 2.5376C12.1445 2.78135 12.6164 3.25322 12.8633 3.86885C13.2289 4.79072 13.1445 6.97822 13.1445 7.99697C13.1445 9.01572 13.2289 11.2063 12.8633 12.1251Z"
+                                fill="white" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0">
+                                <rect width="14" height="16" fill="white" transform="translate(0.400391)" />
+                            </clipPath>
+                        </defs>
+                    </svg></a>
+                <a href=""><svg width="21" height="16" viewBox="0 0 21 16" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0)">
+                            <path
+                                d="M18.4679 3.98983C18.4804 4.16475 18.4804 4.33971 18.4804 4.51464C18.4804 9.85002 14.4195 15.9976 6.99738 15.9976C4.71077 15.9976 2.58661 15.3354 0.799805 14.1859C1.12469 14.2233 1.43704 14.2358 1.77442 14.2358C3.66115 14.2358 5.398 13.5986 6.78496 12.5115C5.01065 12.474 3.52373 11.312 3.01142 9.7126C3.26134 9.75006 3.51123 9.77506 3.77365 9.77506C4.136 9.77506 4.49838 9.72506 4.83573 9.63764C2.98646 9.26275 1.59946 7.63841 1.59946 5.67668V5.62671C2.13673 5.9266 2.76154 6.11402 3.42373 6.13898C2.33665 5.41425 1.62446 4.17725 1.62446 2.77779C1.62446 2.0281 1.82434 1.34087 2.17423 0.741099C4.16096 3.19014 7.14731 4.78948 10.496 4.96444C10.4335 4.66456 10.396 4.35221 10.396 4.03983C10.396 1.81568 12.1953 0.00390625 14.4319 0.00390625C15.594 0.00390625 16.6435 0.491214 17.3808 1.27841C18.2929 1.10348 19.1675 0.766099 19.9423 0.303791C19.6423 1.24094 19.0051 2.02814 18.168 2.52791C18.9802 2.44048 19.7673 2.21552 20.492 1.90318C19.9423 2.70283 19.2551 3.41502 18.4679 3.98983Z"
+                                fill="white" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0">
+                                <rect width="19.6923" height="16" fill="white" transform="translate(0.799805)" />
+                            </clipPath>
+                        </defs>
+                    </svg></a>
+            </li>
+        </ul>
+    </footer>
+
+    <!-- The Modal -->
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Modal Heading</h4>
+                    <button type="button" class="close" data-dismiss="modal">
+                        &times;
+                    </button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    Modal body..
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                        Close
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="data/js/index.js"></script>
+</body>
+
+</html>
